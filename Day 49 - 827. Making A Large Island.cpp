@@ -7,7 +7,7 @@ class Dsu{
         size.resize(n+1,1);
         for(int i=1;i<=n;i++){
             parent[i]=i;
-        }
+        }  
     }
     int findParent(int u){
         if(parent[u]==u){
